@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19172599106F4DE000A5609A /* PhotoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19172598106F4DE000A5609A /* PhotoLocation.m */; };
+		1917265F106F704400A5609A /* MyImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1917265E106F704400A5609A /* MyImageController.m */; };
+		191726BA106FB06F00A5609A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 191726B9106FB06F00A5609A /* icon.png */; };
+		1917271A106FBCFF00A5609A /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19172719106FBCFF00A5609A /* Entitlements.plist */; };
+		19172722106FBF7C00A5609A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 19172721106FBF7C00A5609A /* Default.png */; };
+		19454404106EB53B0005D1BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19454403106EB53B0005D1BC /* MapKit.framework */; };
+		1945442A106EB9630005D1BC /* MyMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19454429106EB9630005D1BC /* MyMapController.m */; };
+		19454444106EBB410005D1BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19454443106EBB410005D1BC /* CoreLocation.framework */; };
+		197B5FA51072018A00CA8652 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 197B5F9A1072014A00CA8652 /* libThree20.a */; };
+		197B5FAD1072021900CA8652 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 197B5FAC1072021900CA8652 /* Three20.bundle */; };
+		197B5FD51072025900CA8652 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197B5FD41072025900CA8652 /* QuartzCore.framework */; };
+		197B6002107207A800CA8652 /* MockPhotoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 197B6001107207A800CA8652 /* MockPhotoSource.m */; };
+		197B6024107207EC00CA8652 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 197B6023107207EC00CA8652 /* PhotoViewController.m */; };
+		19D803CA106E87740050E200 /* PhotoHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D803C9106E87740050E200 /* PhotoHandler.m */; };
+		19D803F5106E915D0050E200 /* EXFGPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D803E6106E915D0050E200 /* EXFGPS.m */; };
+		19D803F6106E915D0050E200 /* EXFHandlers.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D803E8106E915D0050E200 /* EXFHandlers.m */; };
+		19D803F7106E915D0050E200 /* EXFJFIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D803EA106E915D0050E200 /* EXFJFIF.m */; };
+		19D803F8106E915D0050E200 /* EXFJpeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D803EC106E915D0050E200 /* EXFJpeg.m */; };
+		19D803F9106E915D0050E200 /* EXFMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D803EF106E915D0050E200 /* EXFMetaData.m */; };
+		19D803FA106E915D0050E200 /* EXFTagDefinitionHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D803F2106E915D0050E200 /* EXFTagDefinitionHolder.m */; };
+		19D803FB106E915D0050E200 /* EXFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D803F4106E915D0050E200 /* EXFUtils.m */; };
+		1D3623260D0F684500981E51 /* PhotoMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PhotoMapAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		197B5F991072014A00CA8652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197B5F901072014A00CA8652 /* Three20.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20;
+		};
+		197B5FA9107201CE00CA8652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197B5F901072014A00CA8652 /* Three20.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19172597106F4DE000A5609A /* PhotoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoLocation.h; sourceTree = "<group>"; };
+		19172598106F4DE000A5609A /* PhotoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoLocation.m; sourceTree = "<group>"; };
+		1917265D106F704400A5609A /* MyImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageController.h; sourceTree = "<group>"; };
+		1917265E106F704400A5609A /* MyImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageController.m; sourceTree = "<group>"; };
+		191726B9106FB06F00A5609A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		19172719106FBCFF00A5609A /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		19172721106FBF7C00A5609A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		19454403106EB53B0005D1BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		19454428106EB9630005D1BC /* MyMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapController.h; sourceTree = "<group>"; };
+		19454429106EB9630005D1BC /* MyMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapController.m; sourceTree = "<group>"; };
+		19454443106EBB410005D1BC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		197B5F901072014A00CA8652 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../../../../../Developer/three20/src/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
+		197B5FAC1072021900CA8652 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = ../../../../../Developer/three20/src/Three20.bundle; sourceTree = SOURCE_ROOT; };
+		197B5FD41072025900CA8652 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		197B6000107207A800CA8652 /* MockPhotoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockPhotoSource.h; sourceTree = "<group>"; };
+		197B6001107207A800CA8652 /* MockPhotoSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockPhotoSource.m; sourceTree = "<group>"; };
+		197B6022107207EC00CA8652 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		197B6023107207EC00CA8652 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		19D803C8106E87740050E200 /* PhotoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoHandler.h; sourceTree = "<group>"; };
+		19D803C9106E87740050E200 /* PhotoHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoHandler.m; sourceTree = "<group>"; };
+		19D803E3106E915D0050E200 /* EXF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXF.h; sourceTree = "<group>"; };
+		19D803E4106E915D0050E200 /* EXFConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFConstants.h; sourceTree = "<group>"; };
+		19D803E5106E915D0050E200 /* EXFGPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFGPS.h; sourceTree = "<group>"; };
+		19D803E6106E915D0050E200 /* EXFGPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXFGPS.m; sourceTree = "<group>"; };
+		19D803E7106E915D0050E200 /* EXFHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFHandlers.h; sourceTree = "<group>"; };
+		19D803E8106E915D0050E200 /* EXFHandlers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXFHandlers.m; sourceTree = "<group>"; };
+		19D803E9106E915D0050E200 /* EXFJFIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFJFIF.h; sourceTree = "<group>"; };
+		19D803EA106E915D0050E200 /* EXFJFIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXFJFIF.m; sourceTree = "<group>"; };
+		19D803EB106E915D0050E200 /* EXFJpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFJpeg.h; sourceTree = "<group>"; };
+		19D803EC106E915D0050E200 /* EXFJpeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXFJpeg.m; sourceTree = "<group>"; };
+		19D803ED106E915D0050E200 /* EXFLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFLogging.h; sourceTree = "<group>"; };
+		19D803EE106E915D0050E200 /* EXFMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFMetaData.h; sourceTree = "<group>"; };
+		19D803EF106E915D0050E200 /* EXFMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXFMetaData.m; sourceTree = "<group>"; };
+		19D803F0106E915D0050E200 /* EXFMutableMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFMutableMetaData.h; sourceTree = "<group>"; };
+		19D803F1106E915D0050E200 /* EXFTagDefinitionHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFTagDefinitionHolder.h; sourceTree = "<group>"; };
+		19D803F2106E915D0050E200 /* EXFTagDefinitionHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXFTagDefinitionHolder.m; sourceTree = "<group>"; };
+		19D803F3106E915D0050E200 /* EXFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFUtils.h; sourceTree = "<group>"; };
+		19D803F4106E915D0050E200 /* EXFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXFUtils.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PhotoMapAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoMapAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PhotoMapAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoMapAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* PhotoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* PhotoMap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoMap_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* PhotoMap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PhotoMap-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				19454404106EB53B0005D1BC /* MapKit.framework in Frameworks */,
+				19454444106EBB410005D1BC /* CoreLocation.framework in Frameworks */,
+				197B5FA51072018A00CA8652 /* libThree20.a in Frameworks */,
+				197B5FD51072025900CA8652 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				19D803E2106E915D0050E200 /* EXIF */,
+				197B6000107207A800CA8652 /* MockPhotoSource.h */,
+				197B6001107207A800CA8652 /* MockPhotoSource.m */,
+				1D3623240D0F684500981E51 /* PhotoMapAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PhotoMapAppDelegate.m */,
+				19D803C8106E87740050E200 /* PhotoHandler.h */,
+				19D803C9106E87740050E200 /* PhotoHandler.m */,
+				19454428106EB9630005D1BC /* MyMapController.h */,
+				19454429106EB9630005D1BC /* MyMapController.m */,
+				19172597106F4DE000A5609A /* PhotoLocation.h */,
+				19172598106F4DE000A5609A /* PhotoLocation.m */,
+				1917265D106F704400A5609A /* MyImageController.h */,
+				1917265E106F704400A5609A /* MyImageController.m */,
+				197B6022107207EC00CA8652 /* PhotoViewController.h */,
+				197B6023107207EC00CA8652 /* PhotoViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		197B5F961072014A00CA8652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				197B5F9A1072014A00CA8652 /* libThree20.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* PhotoMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D803E2106E915D0050E200 /* EXIF */ = {
+			isa = PBXGroup;
+			children = (
+				19D803E3106E915D0050E200 /* EXF.h */,
+				19D803E4106E915D0050E200 /* EXFConstants.h */,
+				19D803E5106E915D0050E200 /* EXFGPS.h */,
+				19D803E6106E915D0050E200 /* EXFGPS.m */,
+				19D803E7106E915D0050E200 /* EXFHandlers.h */,
+				19D803E8106E915D0050E200 /* EXFHandlers.m */,
+				19D803E9106E915D0050E200 /* EXFJFIF.h */,
+				19D803EA106E915D0050E200 /* EXFJFIF.m */,
+				19D803EB106E915D0050E200 /* EXFJpeg.h */,
+				19D803EC106E915D0050E200 /* EXFJpeg.m */,
+				19D803ED106E915D0050E200 /* EXFLogging.h */,
+				19D803EE106E915D0050E200 /* EXFMetaData.h */,
+				19D803EF106E915D0050E200 /* EXFMetaData.m */,
+				19D803F0106E915D0050E200 /* EXFMutableMetaData.h */,
+				19D803F1106E915D0050E200 /* EXFTagDefinitionHolder.h */,
+				19D803F2106E915D0050E200 /* EXFTagDefinitionHolder.m */,
+				19D803F3106E915D0050E200 /* EXFUtils.h */,
+				19D803F4106E915D0050E200 /* EXFUtils.m */,
+			);
+			path = EXIF;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				197B5FAC1072021900CA8652 /* Three20.bundle */,
+				197B5F901072014A00CA8652 /* Three20.xcodeproj */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PhotoMap_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19172721106FBF7C00A5609A /* Default.png */,
+				191726B9106FB06F00A5609A /* icon.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* PhotoMap-Info.plist */,
+				19172719106FBCFF00A5609A /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				197B5FD41072025900CA8652 /* QuartzCore.framework */,
+				19454443106EBB410005D1BC /* CoreLocation.framework */,
+				19454403106EB53B0005D1BC /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PhotoMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PhotoMap" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197B5FAA107201CE00CA8652 /* PBXTargetDependency */,
+			);
+			name = PhotoMap;
+			productName = PhotoMap;
+			productReference = 1D6058910D05DD3D006BFB54 /* PhotoMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PhotoMap" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 197B5F961072014A00CA8652 /* Products */;
+					ProjectRef = 197B5F901072014A00CA8652 /* Three20.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PhotoMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		197B5F9A1072014A00CA8652 /* libThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20.a;
+			remoteRef = 197B5F991072014A00CA8652 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				191726BA106FB06F00A5609A /* icon.png in Resources */,
+				1917271A106FBCFF00A5609A /* Entitlements.plist in Resources */,
+				19172722106FBF7C00A5609A /* Default.png in Resources */,
+				197B5FAD1072021900CA8652 /* Three20.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PhotoMapAppDelegate.m in Sources */,
+				19D803CA106E87740050E200 /* PhotoHandler.m in Sources */,
+				19D803F5106E915D0050E200 /* EXFGPS.m in Sources */,
+				19D803F6106E915D0050E200 /* EXFHandlers.m in Sources */,
+				19D803F7106E915D0050E200 /* EXFJFIF.m in Sources */,
+				19D803F8106E915D0050E200 /* EXFJpeg.m in Sources */,
+				19D803F9106E915D0050E200 /* EXFMetaData.m in Sources */,
+				19D803FA106E915D0050E200 /* EXFTagDefinitionHolder.m in Sources */,
+				19D803FB106E915D0050E200 /* EXFUtils.m in Sources */,
+				1945442A106EB9630005D1BC /* MyMapController.m in Sources */,
+				19172599106F4DE000A5609A /* PhotoLocation.m in Sources */,
+				1917265F106F704400A5609A /* MyImageController.m in Sources */,
+				197B6002107207A800CA8652 /* MockPhotoSource.m in Sources */,
+				197B6024107207EC00CA8652 /* PhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		197B5FAA107201CE00CA8652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20;
+			targetProxy = 197B5FA9107201CE00CA8652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19172715106FBCD300A5609A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/three20/src;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Distribution;
+		};
+		19172716106FBCD300A5609A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jernej Fijacko";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhotoMap_Prefix.pch;
+				INFOPLIST_FILE = "PhotoMap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = PhotoMap;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "727486BC-4826-44D4-A161-DB1B6E6648D6";
+			};
+			name = Distribution;
+		};
+		1917272C1070243E00A5609A /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/three20/src;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = AdHoc;
+		};
+		1917272D1070243E00A5609A /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jernej Fijacko";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhotoMap_Prefix.pch;
+				INFOPLIST_FILE = "PhotoMap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = PhotoMap;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0C3F0E25-0140-4748-B710-1B198D5F8F30";
+				SDKROOT = iphoneos3.0;
+			};
+			name = AdHoc;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jernej Fijacko";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhotoMap_Prefix.pch;
+				INFOPLIST_FILE = "PhotoMap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = PhotoMap;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "35253F0E-53CC-4081-8062-6C2920CCD930";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhotoMap_Prefix.pch;
+				INFOPLIST_FILE = "PhotoMap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = PhotoMap;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/three20/src;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/three20/src;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PhotoMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				19172716106FBCD300A5609A /* Distribution */,
+				1917272D1070243E00A5609A /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PhotoMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				19172715106FBCD300A5609A /* Distribution */,
+				1917272C1070243E00A5609A /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
